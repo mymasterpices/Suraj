@@ -3,7 +3,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
   ArrowRight,
-  Download,
   MapPin,
   Sparkles,
   Terminal,
@@ -192,15 +191,6 @@ export default function Hero() {
                 <ArrowRight className="w-4 h-4 text-blue-500" />
               </a>
 
-              <a
-                href="/resume.pdf"
-                download="Suraj-Sharma-Resume.pdf"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl font-medium text-xs text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 bg-slate-100 dark:bg-slate-900/60 hover:bg-slate-200/80 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800 hover:-translate-y-0.5 transition-all"
-                title="Download Suraj Sharma's Professional Resume (PDF)"
-              >
-                <Download className="w-4 h-4 text-indigo-500" />
-                <span>Resume (PDF)</span>
-              </a>
             </div>
 
             {/* Direct Channels with Verified LinkedIn */}
