@@ -110,7 +110,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\Suraj Sharma\\projects\\wa_crm-app\\portfolio",
+    "outputFileTracingRoot": "D:\\Suraj Sharma\\projects\\portfolio",
     "enablePrerenderSourceMaps": true,
     "cacheComponents": false,
     "cacheLife": {
@@ -326,12 +326,12 @@ self.__SERVER_FILES_MANIFEST={
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "D:\\Suraj Sharma\\projects\\wa_crm-app\\portfolio"
+      "root": "D:\\Suraj Sharma\\projects\\portfolio"
     },
-    "repoRoot": "D:\\Suraj Sharma\\projects\\wa_crm-app",
+    "repoRoot": "D:\\Suraj Sharma\\projects\\portfolio",
     "distDirRoot": ".next"
   },
-  "appDir": "D:\\Suraj Sharma\\projects\\wa_crm-app\\portfolio",
+  "appDir": "D:\\Suraj Sharma\\projects\\portfolio",
   "relativeAppDir": "",
   "files": [
     ".next\\package.json",

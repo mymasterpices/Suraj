@@ -103,7 +103,6 @@ _(On Windows PowerShell, run: `Copy-Item env.example.txt .env.local`)_
 Edit `.env.local` with your configuration:
 
 ```env
-PORT=3005
 OWNER_EMAIL=
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=465
@@ -121,7 +120,7 @@ AUTO_REPLY=true
 npm run dev
 ```
 
-Open **[http://localhost:3005](http://localhost:3005)** in your browser.
+Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 ---
 
