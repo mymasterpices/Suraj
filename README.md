@@ -102,9 +102,20 @@ _(On Windows PowerShell, run: `Copy-Item env.example.txt .env.local`)_
 
 Edit `.env.local` with your configuration:
 
+```env
+PORT=3005
+OWNER_EMAIL=
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=465
+SMTP_SECURE=true
+SMTP_USER=
+SMTP_PASS=your-16-character-gmail-app-password
+AUTO_REPLY=true
+```
+
 > **Note:** If `SMTP_PASS` is left unconfigured, the app will still function seamlessly in local development! It safely writes every submission to `data/inquiries.json` with a console notice.
 
-### 4. Run Development ServerProject Architecture
+### 4. Run Development Server
 
 ```bash
 npm run dev
@@ -181,6 +192,10 @@ If a client submits more than 5 requests within 15 minutes from the same IP addr
 2. Sign in to [Vercel](https://vercel.com) and click **Add New Project**.
 3. Import the repository and set the Root Directory to `portfolio`.
 4. Under **Environment Variables**, add:
+   - `OWNER_EMAIL`: ``
+   - `SMTP_USER`: ``
+   - `SMTP_PASS`: `your-16-char-app-password`
+   - `AUTO_REPLY`: `true`
 5. Click **Deploy**. Your site is live on a global edge CDN with serverless route handlers!
 
 ### Option 2: VPS with PM2 + Nginx
