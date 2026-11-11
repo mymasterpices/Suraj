@@ -1,0 +1,29 @@
+{
+  "name": "suraj-sharma-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal Portfolio & Inquiries App for Suraj Sharma - Full Stack / MEAN Stack Developer",
+  "scripts": {
+    "dev": "next dev -p 3005",
+    "build": "next build",
+    "start": "next start -p 3005",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "lucide-react": "^1.52.0",
+    "next": "16.3.8",
+    "nodemailer": "^6.10.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "@types/nodemailer": "^6.4.24",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "inq_1794382482470_gm7ol",
+    "timestamp": "2026-11-11T07:34:42.470Z",
+    "name": "suraj",
+    "email": "suraj@mail.com",
+    "phone": "9876543210",
+    "service": "Custom Web App (Full Stack / MEAN)",
+    "budget": "₹50,000 – ₹1,00,000",
+    "message": "testing app",
+    "ip": "::1"
+  },
+  {
+    "id": "inq_1794382244145_v84wf",
+    "timestamp": "2026-11-11T07:30:44.146Z",
+    "name": "Suraj Sharma",
+    "email": "test@mail.com",
+    "phone": "9876543210",
+    "service": "E-Commerce Storefront Development",
+    "budget": "Under ₹50,000",
+    "message": "Testing contact form",
+    "ip": "::1"
+  },
+  {
+    "id": "inq_1794381000287_qx07z",
+    "timestamp": "2026-11-11T07:10:00.287Z",
+    "name": "Arjun Patel",
+    "email": "arjun.patel@example.com",
+    "phone": "+91-9812345678",
+    "service": "Custom Web App (Full Stack / MEAN)",
+    "budget": "$3,000 – $5,000 / ₹2.5L – ₹4L",
+    "message": "Hi Suraj, we are looking to modernize our logistics CRM and quotation system with Node.js and TypeScript. Looking forward to discussing the project scope.",
+    "ip": "::1"
+  },
+  {
+    "id": "inq_1794380962952_kiy2b",
+    "timestamp": "2026-11-11T07:09:22.952Z",
+    "name": "Arjun Patel",
+    "email": "arjun.patel@example.com",
+    "phone": "+91-9812345678",
+    "service": "Custom Web App (Full Stack / MEAN)",
+    "budget": "$3,000 – $5,000 / ₹2.5L – ₹4L",
+    "message": "Hi Suraj, we are looking to modernize our logistics CRM and quotation system with Node.js and TypeScript. Looking forward to discussing the project scope.",
+    "ip": "::1"
+  }
+]
