@@ -68,7 +68,6 @@ export default function RootLayout({
     name: personalInfo.name,
     jobTitle: personalInfo.title,
     telephone: personalInfo.phone,
-    email: personalInfo.email,
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'New Delhi',

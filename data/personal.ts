@@ -6,7 +6,6 @@ export interface PersonalInfo {
   location: string;
   phone: string;
   phoneRaw: string;
-  email: string;
   linkedin: string;
   github: string;
   experienceYears: string;
@@ -34,7 +33,6 @@ export const personalInfo: PersonalInfo = {
   location: "New Delhi, India",
   phone: "+91-9205532748",
   phoneRaw: "+919205532748",
-  email: "sooraj.sharma222@gmail.com",
   linkedin: "https://www.linkedin.com/in/suraj-sharma-076588178/",
   github: "https://github.com/mymasterpices",
   experienceYears: "8.5+",
@@ -80,12 +78,6 @@ export const personalInfo: PersonalInfo = {
       url: "https://www.linkedin.com/in/suraj-sharma-076588178/",
       icon: "Linkedin",
       ariaLabel: "Connect with Suraj Sharma on LinkedIn",
-    },
-    {
-      name: "Email",
-      url: "mailto:sooraj.sharma222@gmail.com",
-      icon: "Mail",
-      ariaLabel: "Send email to Suraj Sharma",
     },
     {
       name: "Phone",

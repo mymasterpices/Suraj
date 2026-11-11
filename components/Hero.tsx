@@ -4,7 +4,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import {
   ArrowRight,
   Download,
-  Mail,
   MapPin,
   Sparkles,
   Terminal,
@@ -85,7 +84,6 @@ export default function Hero() {
         location: personalInfo.location,
         linkedin: personalInfo.linkedin,
         specialties: ['MEAN Stack', 'Node.js', 'TypeScript', 'Shopify Liquid & Remix', 'AI Agents'],
-        contact: personalInfo.email,
         phone: personalInfo.phone,
         status: 'Available for projects',
       },
@@ -191,7 +189,7 @@ export default function Hero() {
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-semibold text-sm text-slate-800 dark:text-slate-100 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 border border-slate-300 dark:border-slate-700 shadow-sm hover:-translate-y-1 transition-all duration-200"
               >
                 <span>Hire Me / Contact</span>
-                <Mail className="w-4 h-4 text-blue-500" />
+                <ArrowRight className="w-4 h-4 text-blue-500" />
               </a>
 
               <a
@@ -231,15 +229,6 @@ export default function Hero() {
                 <GithubIcon className="w-3.5 h-3.5" />
                 <span>GitHub</span>
                 <ExternalLink className="w-3 h-3 opacity-60" />
-              </a>
-              <span className="text-slate-300 dark:text-slate-700">•</span>
-              <a
-                href="mailto:sooraj.sharma222@gmail.com"
-                className="text-slate-700 dark:text-slate-300 hover:text-blue-500 flex items-center gap-1.5 transition-colors"
-                title="Send Email"
-              >
-                <Mail className="w-3.5 h-3.5 text-blue-500" />
-                sooraj.sharma222@gmail.com
               </a>
               <span className="text-slate-300 dark:text-slate-700">•</span>
               <a
@@ -414,10 +403,6 @@ export default function Hero() {
                   <div className="p-5 space-y-2 text-slate-300 leading-relaxed overflow-x-auto min-h-[260px] animate-in fade-in duration-200">
                     <p>&#123;</p>
                     <p className="pl-4">
-                      <span className="text-slate-400">&quot;email&quot;:</span>{' '}
-                      <span className="text-cyan-300">&quot;sooraj.sharma222@gmail.com&quot;</span>,
-                    </p>
-                    <p className="pl-4">
                       <span className="text-slate-400">&quot;phone&quot;:</span>{' '}
                       <span className="text-cyan-300">&quot;+91-9205532748&quot;</span>,
                     </p>
@@ -428,10 +413,6 @@ export default function Hero() {
                     <p className="pl-4">
                       <span className="text-slate-400">&quot;location&quot;:</span>{' '}
                       <span className="text-emerald-300">&quot;New Delhi, India (UTC+5:30)&quot;</span>,
-                    </p>
-                    <p className="pl-4">
-                      <span className="text-slate-400">&quot;responseTime&quot;:</span>{' '}
-                      <span className="text-amber-300">&quot;&lt; 12-24 hours&quot;</span>
                     </p>
                     <p>&#125;</p>
                   </div>
