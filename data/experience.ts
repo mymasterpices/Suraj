@@ -95,12 +95,29 @@ export const experiences: ExperienceItem[] = [
     ],
   },
   {
-    id: "consurgys-media-2018",
-    role: "WordPress Designer / HTML Developer",
-    company: "Consurgys Media",
+    id: "matrix-web-studio-2018",
+    role: "Jr. WordPress / HTML Developer",
+    company: "Matrix Web Studio",
     period: "Dec 2018 – Apr 2020",
     startDate: "2018-12",
     endDate: "2020-04",
+    location: "New Delhi, India",
+    summary:
+      "Kicked off professional development career delivering rapid turnaround client sites and earning peer recognitions.",
+    highlights: [
+      "Developed client-facing WordPress websites and responsive HTML web templates within an agile front-end engineering team.",
+      "Recognized by leadership with the prestigious 'Client Comforter Award' for exceptional customer empathy and satisfaction.",
+      "Honored with the 'Mr. Regular Award' in recognition of outstanding dependability, punctuality, and work ethic.",
+    ],
+    technologies: ["WordPress", "HTML5", "CSS3", "JavaScript", "UI Slicing"],
+  },
+  {
+    id: "consurgys-media-2018",
+    role: "WordPress Designer / HTML Developer",
+    company: "Consurgys Media",
+    period: "Jun 2018 – Nov 2018",
+    startDate: "2018-06",
+    endDate: "2018-11",
     location: "New Delhi, India",
     summary:
       "Designed and coded high-converting WordPress websites, client blogs, and e-commerce portals for agency clients.",
@@ -116,29 +133,6 @@ export const experiences: ExperienceItem[] = [
       "JavaScript",
       "Bootstrap",
       "WooCommerce",
-    ],
-  },
-  {
-    id: "matrix-web-studio-2018",
-    role: "Jr. WordPress / HTML Developer",
-    company: "Matrix Web Studio",
-    period: "Jun 2018 – Nov 2018",
-    startDate: "2018-06",
-    endDate: "2018-11",
-    location: "New Delhi, India",
-    summary:
-      "Kicked off professional development career delivering rapid turnaround client sites and earning peer recognitions.",
-    highlights: [
-      "Developed client-facing WordPress websites and responsive HTML web templates within an agile front-end engineering team.",
-      "Recognized by leadership with the prestigious 'Client Comforter Award' for exceptional customer empathy and satisfaction.",
-      "Honored with the 'Mr. Regular Award' in recognition of outstanding dependability, punctuality, and work ethic.",
-    ],
-    technologies: [
-      "WordPress",
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "UI Slicing",
     ],
   },
 ];
